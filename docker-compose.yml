@@ -1,0 +1,7 @@
+version: '3'
+services:
+    mine:
+        image: test
+        volumes:
+            - ./src:/HaveFun
+            - ./bld:/HaveBuild
